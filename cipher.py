@@ -27,7 +27,7 @@ cipher_dict = {
     "z": "e",
 }
               
-text = str(input("Enter a sentence:"))
+text = str(input("enter a sentence:"))
 text = text.lower()
 
 cipher_text = ""
@@ -36,5 +36,5 @@ for c in text:
         c = cipher_dict[c]
     cipher_text += c
 
-print("Please enter a senctence:", text)
-print("The encrypted sentence is:", cipher_text)
+print("please enter a senctence:", text)
+print("the encrypted sentence is:", cipher_text)
