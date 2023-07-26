@@ -36,5 +36,5 @@ for c in text:
         c = cipher_dict[c]
     cipher_text += c
 
-print("Please enter a sentence:", text)
-print("The encrypted sentence is:", cipher_text)
+print("please enter a sentence:", text)
+print("the encrypted sentence is:", cipher_text)
