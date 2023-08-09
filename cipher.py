@@ -37,4 +37,4 @@ for c in text:
     cipher_text += c
 
 print("The encrypted sentence is:", cipher_text)
-print("the sentence is:", text)
+print("The sentence is:", text)
